@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*.executed.ipynb
+
+# Project-generated artifacts
+generated_scalograms/
+models/
+results/
+
+# Keep the final deliverable notebook, ignore other output scratch files.
+outputs/*
+!outputs/
+!outputs/Bearing_Fault_Diagnosis_CWT_ResNet18.ipynb
+
+# Local scratch/work folders
+work/
+
+# Environment files
+.env
+.env.*
+.venv/
+venv/
+env/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
